@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+failed,Chrome 109.0.0.0,,,2023-06-07 14:24:06,2023-06-07 14:24:48,42.164s,FAILED
+,,,,,,,
+Test Cases/Day-04/failesTestCase,Chrome 109.0.0.0,,,2023-06-07 14:24:37,2023-06-07 14:24:48,10.773s,FAILED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:24:37,2023-06-07 14:24:37,0.012s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-06-07 14:24:37,2023-06-07 14:24:38,0.430s,PASSED
+maximizeWindow(),Chrome 109.0.0.0,,,2023-06-07 14:24:38,2023-06-07 14:24:38,0.113s,PASSED
+"navigateToUrl(""https://demoqa.com/automation-practice-form"")",Chrome 109.0.0.0,,,2023-06-07 14:24:38,2023-06-07 14:24:42,4.083s,PASSED
+"setText(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_Name_firstName""), ""Deep"")",Chrome 109.0.0.0,,,2023-06-07 14:24:42,2023-06-07 14:24:43,1.631s,PASSED
+"setText(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_Name_lastName""), ""Patel"")",Chrome 109.0.0.0,,,2023-06-07 14:24:43,2023-06-07 14:24:44,0.833s,PASSED
+"setText(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_Email_userEmail""), ""deep@gmail.com"")",Chrome 109.0.0.0,,,2023-06-07 14:24:44,2023-06-07 14:24:45,0.839s,PASSED
+"click(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/label_Male""))",Chrome 109.0.0.0,,,2023-06-07 14:24:45,2023-06-07 14:24:46,0.506s,PASSED
+"setText(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_(10 Digits)_userNumber""), ""1234567891"")",Chrome 109.0.0.0,,,2023-06-07 14:24:46,2023-06-07 14:24:47,0.943s,PASSED
+"setText(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_Date of Birth_dateOfBirthInput""), ""05 Jun 2023"")",Chrome 109.0.0.0,,,2023-06-07 14:24:47,2023-06-07 14:24:48,1.174s,PASSED
+"click(findTestObject(""Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/inputsafgasdf	klh;fjsad_Date of Birth_dateOfBirthInput""))",Chrome 109.0.0.0,,,2023-06-07 14:24:48,2023-06-07 14:24:48,0.186s,FAILED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:24:48,2023-06-07 14:24:48,0.001s,PASSED
