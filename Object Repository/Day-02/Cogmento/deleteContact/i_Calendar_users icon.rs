@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Calendar_users icon</name>
+   <tag></tag>
+   <elementGuidId>c3e5237c-4d15-4c4a-b28c-d0a33792a53b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-nav']/div[3]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.users.icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b1cc3c72-c7e9-4ec6-9905-7d5788d7058a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>users icon</value>
+      <webElementGuid>0ebb14e4-fe42-4f8c-8644-11825ca3477a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-nav&quot;)/div[@class=&quot;menu-item-wrapper&quot;]/a[@class=&quot;item&quot;]/i[@class=&quot;users icon&quot;]</value>
+      <webElementGuid>8f82b0f1-3509-43ea-90f4-ac46f669c07e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-nav']/div[3]/a/i</value>
+      <webElementGuid>6894f6c5-632c-412c-a89d-0d3ec192c580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a/i</value>
+      <webElementGuid>8a9be721-2eb5-4ed3-a2ae-0203a5b164c2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select OneFootBallTenisCricket</name>
+   <tag></tag>
+   <elementGuidId>972803d5-6f17-4c47-a012-ace7058a1a76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='s1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#s1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>86cb7e44-8a3b-4846-91d9-feb29f940520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>games</value>
+      <webElementGuid>f2732a31-4fde-4615-a7c7-332c4a9ef006</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>s1</value>
+      <webElementGuid>7de85be8-6749-4e1a-b7ed-4de6b294497b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select One
+FootBall
+Tenis
+Cricket
+</value>
+      <webElementGuid>4296ad62-f9c8-4673-983c-522dd6bcb1ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;s1&quot;)</value>
+      <webElementGuid>45dc9b80-029e-4e58-8a26-40341f068996</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='s1']</value>
+      <webElementGuid>73391a99-4e46-495c-b07d-09f2061bf213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Games Played'])[1]/following::select[1]</value>
+      <webElementGuid>1dbff4d7-01ed-4db8-82b3-28b6bee2be26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms &amp; Condition'])[1]/preceding::select[1]</value>
+      <webElementGuid>9e9da015-9098-4b2d-9c85-dbb1b3e1c951</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>d05046db-2b67-4d5b-98e9-9d61f57306a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'games' and @id = 's1' and (text() = 'Select One
+FootBall
+Tenis
+Cricket
+' or . = 'Select One
+FootBall
+Tenis
+Cricket
+')]</value>
+      <webElementGuid>f6f1eb6a-288d-4124-a6a5-098f3bc87bdb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

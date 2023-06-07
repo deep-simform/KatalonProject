@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AccessOnly you can see this record</name>
+   <tag></tag>
+   <elementGuidId>f01d9e75-bffb-494f-901c-1817985e20db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/div/div/div/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5dc3c02a-90ac-49a3-a4d3-8539da9e1505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>field</value>
+      <webElementGuid>ab966b00-825d-4e63-bad1-f5b21f2b0c7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AccessOnly you can see this record.</value>
+      <webElementGuid>5633b5e3-f220-4e70-ba5e-9bbd16cd89b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/div[@class=&quot;ui stackable&quot;]/div[@class=&quot;custom-view-container&quot;]/div[@class=&quot;ui form segment&quot;]/div[@class=&quot;field&quot;]</value>
+      <webElementGuid>9e38ebfb-8b36-4734-aef7-dc1f69d1e921</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/div/div/div/div[3]</value>
+      <webElementGuid>3bac4622-445a-4c77-9b21-a7c4a884c0a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Simform'])[2]/following::div[1]</value>
+      <webElementGuid>ac73e09b-accc-4eda-af4c-8eb00c00cd8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::div[4]</value>
+      <webElementGuid>6bad5fe5-fa8b-4b65-934b-237eb1c2dbd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[3]</value>
+      <webElementGuid>5cf05aef-3ded-4489-9e55-e2384a4eb24a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AccessOnly you can see this record.' or . = 'AccessOnly you can see this record.')]</value>
+      <webElementGuid>34b005e1-77c4-4492-8a01-364a16318d0b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

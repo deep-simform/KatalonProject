@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Home_home icon</name>
+   <tag></tag>
+   <elementGuidId>e845eab6-0454-48b5-8b88-6e54cb1642d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-nav']/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.home.icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>48a386b5-7873-4169-994a-727d29f23247</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>home icon</value>
+      <webElementGuid>9713eeb8-bc55-43dc-850e-185598bba51a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-nav&quot;)/div[@class=&quot;menu-item-wrapper&quot;]/a[@class=&quot;item&quot;]/i[@class=&quot;home icon&quot;]</value>
+      <webElementGuid>3baaefde-4410-46b6-b240-caec2289d976</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-nav']/div/a/i</value>
+      <webElementGuid>2f968aa7-0c5c-4059-a511-10c99d0ee7e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>3cd72f54-ecf3-4f9f-84a3-ae96f26e41d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

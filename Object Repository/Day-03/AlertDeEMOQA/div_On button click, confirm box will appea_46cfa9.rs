@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_On button click, confirm box will appea_46cfa9</name>
+   <tag></tag>
+   <elementGuidId>0c87c423-88c1-4d0e-a9f9-5d6c82297740</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='javascriptAlertsWrapper']/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6570c6fa-7c5b-4afa-a140-c4f26d41b86c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-6</value>
+      <webElementGuid>111c19c6-95d1-4138-b6f7-b0ef966b7211</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>On button click, confirm box will appearYou selected Cancel</value>
+      <webElementGuid>54ed85bf-fb22-4156-88b9-3cf03b294369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;javascriptAlertsWrapper&quot;)/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-md-6&quot;]</value>
+      <webElementGuid>dd97beb0-83e1-4946-b36b-e1cec3f830be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='javascriptAlertsWrapper']/div[3]/div</value>
+      <webElementGuid>a8a7cbd7-5b77-4db3-865d-7ce2e9a44571</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click me'])[2]/following::div[2]</value>
+      <webElementGuid>a8793232-1446-4f4b-ad28-f3cdbd8c311c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='On button click, alert will appear after 5 seconds'])[1]/following::div[3]</value>
+      <webElementGuid>ea8fcda4-27a1-4769-bf2f-4944189ce1e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[3]/div</value>
+      <webElementGuid>f83a2904-11f9-430d-bff9-a2c77a3392b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'On button click, confirm box will appearYou selected Cancel' or . = 'On button click, confirm box will appearYou selected Cancel')]</value>
+      <webElementGuid>bd17f176-e8fe-4d8d-ba9d-447673df2f09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

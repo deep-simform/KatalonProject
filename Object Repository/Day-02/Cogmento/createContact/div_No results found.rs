@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_No results found</name>
+   <tag></tag>
+   <elementGuidId>362f4d42-e938-44e3-9b3c-6e5011c622d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/form/div[3]/div[2]/div/label[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui.fluid.multiple.search.selection.dropdown</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6005f27d-c97b-4a37-bced-feaf81461814</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>combobox</value>
+      <webElementGuid>b6e62e44-f4e0-4307-a7b6-b0cdd9ff0a83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-busy</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ffb81a4c-981a-4a38-b5a9-b34b4f001b8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ecefb07e-85fc-4b98-81ea-3e41aea00de3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui fluid multiple search selection dropdown</value>
+      <webElementGuid>b5ba07ce-5e1b-4d45-920f-143bbd3b56bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No results found.</value>
+      <webElementGuid>96cf80bd-b6ae-47b2-a8d9-54ab754a29c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/form[@class=&quot;ui form segment custom-form-container&quot;]/div[@class=&quot;two fields&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;ui field&quot;]/label[2]/div[@class=&quot;ui fluid multiple search selection dropdown&quot;]</value>
+      <webElementGuid>f7bf897c-e213-49b6-8c94-7304b363fc58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/form/div[3]/div[2]/div/label[2]/div</value>
+      <webElementGuid>5a675d04-0fc5-4794-96c0-2c7c7bfa0620</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tags'])[1]/following::div[1]</value>
+      <webElementGuid>27419d96-db73-4528-812e-bc72cc2f15c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deep Patel'])[2]/following::div[3]</value>
+      <webElementGuid>c91100de-bdbd-4938-b49b-2a352c4c16ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/preceding::div[3]</value>
+      <webElementGuid>113ee77a-b436-407b-aa74-19e121d553b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]/div</value>
+      <webElementGuid>fbd5bc29-75d9-4a87-adb9-cd42375563e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'No results found.' or . = 'No results found.')]</value>
+      <webElementGuid>dc87d160-1283-4920-8b9b-fb43bd4838c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

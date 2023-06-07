@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AlertDemoQA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a44b024c-9658-421a-844b-4c06234b6d38</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf48296c-2fc0-4a25-b748-03ec9c2bb323</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'deep'</defaultValue>
+      <description></description>
+      <id>cf48296c-2fc0-4a25-b748-03ec9c2bb323</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
+</TestCaseEntity>

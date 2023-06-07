@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Do not Email</name>
+   <tag></tag>
+   <elementGuidId>d608c715-fff1-40b0-9463-5161dbc6a006</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/form/div[12]/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e86269ac-6b4d-4e2e-940f-00b5e3621c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do not Email</value>
+      <webElementGuid>c21efff7-85b6-45c0-8cb4-818518e2a27e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/form[@class=&quot;ui form segment custom-form-container&quot;]/div[@class=&quot;two fields&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;ui field&quot;]/div[@class=&quot;ui toggle checkbox&quot;]/label[1]</value>
+      <webElementGuid>fcfd59be-003e-49d4-a934-97a771ee9137</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/form/div[12]/div/div/div/label</value>
+      <webElementGuid>deb788ef-b9fd-4066-b147-8d51bc0232e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do not Email'])[1]/following::label[1]</value>
+      <webElementGuid>c52e1f8b-09f2-4aaf-8f99-f8edb3f96134</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do not Text'])[2]/following::label[2]</value>
+      <webElementGuid>4514ff5f-28eb-4137-b17c-c66906548c27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Birthday'])[1]/preceding::label[1]</value>
+      <webElementGuid>81c66adc-eba2-4f04-b03d-9b38db693ad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Month'])[1]/preceding::label[2]</value>
+      <webElementGuid>3bf80bb1-3222-45c2-b6e1-18aa96767fea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/div/div/div/label</value>
+      <webElementGuid>a847d1f6-4543-4438-bd5a-368fe8b4d44b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Do not Email' or . = 'Do not Email')]</value>
+      <webElementGuid>97df70ed-3046-4110-bb7a-e0a2da961e8b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

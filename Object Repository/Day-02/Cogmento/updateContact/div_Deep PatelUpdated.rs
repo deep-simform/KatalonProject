@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Deep PatelUpdated</name>
+   <tag></tag>
+   <elementGuidId>db16d19c-4ec7-4c77-ab46-5a02351dddf5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div/div/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.vertical-timeline-element-content.bounce-in</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f36247bb-1726-482b-881e-b6e4443d974c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vertical-timeline-element-content bounce-in</value>
+      <webElementGuid>5cf0f113-8d8e-44ee-851c-62b0d346ca32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Deep PatelUpdated</value>
+      <webElementGuid>7296e815-7d88-45ac-8906-7b5fdf4f1f6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container custom-dashboard-container card-container&quot;]/div[@class=&quot;homepage-container&quot;]/div[1]/div[@class=&quot;ui fluid card&quot;]/div[@class=&quot;ui segment no-margin&quot;]/div[@class=&quot;ui feed&quot;]/div[@class=&quot;vertical-timeline vertical-timeline--animate vertical-timeline--one-column-left&quot;]/div[@class=&quot;vertical-timeline-element--work vertical-timeline-element&quot;]/div[@class=&quot;vertical-timeline-element-content bounce-in&quot;]</value>
+      <webElementGuid>02faf448-63ab-413d-8a03-b76a2e3b5d09</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>22d8df60-0b00-48bd-9e25-6cd31aed695d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts activity stream'])[1]/following::div[5]</value>
+      <webElementGuid>2cf5b1d5-2390-4746-a6e7-22c895fc5efb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::div[12]</value>
+      <webElementGuid>8a7a89fb-c6ff-422a-84cc-3b02a17bbf0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div[2]/div/div/div/div</value>
+      <webElementGuid>cbc99c0e-dc8c-4839-aefe-40d31bbfb84c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Deep PatelUpdated' or . = 'Deep PatelUpdated')]</value>
+      <webElementGuid>89c1786a-89fe-403d-8577-706ab24f0efb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

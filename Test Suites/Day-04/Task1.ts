@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Task1</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>d7e2701d-43a7-4619-9851-42396e180cce</testSuiteGuid>
+   <testCaseLink>
+      <guid>b3c85067-2d8f-4e63-a0d0-5e6d6d7c2539</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Day-04/Assignment Task-1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>aba38fe6-61e3-4ce7-8021-70edd51eafcf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Test Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>aba38fe6-61e3-4ce7-8021-70edd51eafcf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>b61e55f1-09fc-43c7-9afd-30d2917c89a2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aba38fe6-61e3-4ce7-8021-70edd51eafcf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gender</value>
+         <variableId>7499cc19-c3ed-49aa-8e06-f7cedf826cf1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

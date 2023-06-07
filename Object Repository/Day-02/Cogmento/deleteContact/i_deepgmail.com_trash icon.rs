@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_deepgmail.com_trash icon</name>
+   <tag></tag>
+   <elementGuidId>8a2b5559-e51a-4242-926f-4df30e58aac0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/div/table/tbody/tr/td[8]/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ui.button.icon > i.trash.icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0d08b967-d4d6-4bc7-bf16-4a9ffc27f931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6e75fb39-d2e6-427b-be23-00cca40391a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>trash icon</value>
+      <webElementGuid>eb0e85bd-6619-443d-b646-fa3226c7c938</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/div[@class=&quot;table-wrapper&quot;]/table[@class=&quot;ui celled definition sortable striped table custom-grid&quot;]/tbody[1]/tr[@class=&quot;active warning&quot;]/td[@class=&quot;right aligned collapsing options-buttons-container&quot;]/button[@class=&quot;ui button icon&quot;]/i[@class=&quot;trash icon&quot;]</value>
+      <webElementGuid>9726effd-394d-45ee-9a96-e1fa10b7d88b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/div/table/tbody/tr/td[8]/button[2]/i</value>
+      <webElementGuid>1df96444-2ebf-4806-946c-845b1a249848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[8]/button[2]/i</value>
+      <webElementGuid>8b4d2e24-c118-403d-ba31-2a2189dc8709</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

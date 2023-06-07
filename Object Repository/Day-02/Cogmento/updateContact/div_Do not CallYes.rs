@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Do not CallYes</name>
+   <tag></tag>
+   <elementGuidId>68bbf9e2-bd47-42e9-807e-fe4c26342045</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/div/div/div/div[18]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c2df4c59-be0f-4651-a088-d08cc542811d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>field</value>
+      <webElementGuid>c7133ae4-eccf-4428-9cff-c7f374dd1a27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do not CallYes</value>
+      <webElementGuid>f13791da-930f-4cc3-b473-dd93bb740fa0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/div[@class=&quot;ui stackable&quot;]/div[@class=&quot;custom-view-container&quot;]/div[@class=&quot;ui form segment&quot;]/div[@class=&quot;field&quot;]</value>
+      <webElementGuid>44a9f469-e4bb-446a-a6e4-4e2d1b09286e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/div/div/div/div[18]</value>
+      <webElementGuid>472f6ede-aa92-489a-9acd-dc5a4dcf6e25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Source'])[1]/following::div[2]</value>
+      <webElementGuid>8a3eca3c-2d08-4e97-993c-aeb77031055d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Referred By'])[1]/following::div[5]</value>
+      <webElementGuid>7261f138-0b20-4eb8-b33d-088994efc27f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]</value>
+      <webElementGuid>42e59f7a-22cd-4bba-a2b4-2eceeb60d98c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Do not CallYes' or . = 'Do not CallYes')]</value>
+      <webElementGuid>946d7b44-d7d5-4fe3-b8c4-cce5862fc062</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

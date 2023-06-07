@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Free account_settings icon</name>
+   <tag></tag>
+   <elementGuidId>5c0663bc-cce5-4fad-aa2f-99527f431d26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='top-header-menu']/div[2]/div[2]/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.settings.icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>52acb71b-2165-453a-bf45-38078ee912f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7f5d93a5-43be-447f-bc08-8fdcbbd3a25e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>settings icon</value>
+      <webElementGuid>7a4633d1-0f33-4b57-ace3-6e6007b79807</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top-header-menu&quot;)/div[@class=&quot;right menu&quot;]/div[@class=&quot;ui buttons&quot;]/div[@class=&quot;ui basic button floating item dropdown&quot;]/i[@class=&quot;settings icon&quot;]</value>
+      <webElementGuid>94288c79-c9a8-4a60-805d-8a7d725a3c50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='top-header-menu']/div[2]/div[2]/div/i</value>
+      <webElementGuid>92eac5ba-a111-4194-a361-9b9f481248e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/i</value>
+      <webElementGuid>5ed07840-6224-47eb-b614-f03dbdc81144</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

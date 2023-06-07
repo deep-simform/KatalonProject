@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Log Out</name>
+   <tag></tag>
+   <elementGuidId>c7d77112-1738-4667-b103-4fc578ccaf66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='top-header-menu']/div[2]/div[2]/div/div/a[7]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e92e214f-d695-4308-a799-03077f0c1675</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>67b21301-be06-468c-9260-a297e5bc8b0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log Out</value>
+      <webElementGuid>443afcfb-7803-4aa9-9cc7-96840afafe76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;top-header-menu&quot;)/div[@class=&quot;right menu&quot;]/div[@class=&quot;ui buttons&quot;]/div[@class=&quot;ui active visible basic button floating item dropdown&quot;]/div[@class=&quot;menu transition visible&quot;]/a[@class=&quot;item&quot;]/span[@class=&quot;text&quot;]</value>
+      <webElementGuid>d1f876fd-a027-44f4-9e4c-c00402e20d03</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='top-header-menu']/div[2]/div[2]/div/div/a[7]/span</value>
+      <webElementGuid>b55cea1d-2ca7-465e-856f-fa0b1886c535</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tools'])[1]/following::span[1]</value>
+      <webElementGuid>0fec486b-70f7-4ba8-934b-f9d56358f214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Templates'])[1]/following::span[2]</value>
+      <webElementGuid>1c91de45-d36b-4991-906a-c6b4e8317fe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::span[2]</value>
+      <webElementGuid>1dd34336-1d55-44ee-87f4-ee92bb4e8c5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log Out']/parent::*</value>
+      <webElementGuid>abf57bcb-6270-4b1e-b14d-bbb85ea3eebd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[7]/span</value>
+      <webElementGuid>550397bf-a08f-43bf-b967-e3b182af7d01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log Out' or . = 'Log Out')]</value>
+      <webElementGuid>8376396a-faa7-45fe-bad5-6ee7927e6481</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

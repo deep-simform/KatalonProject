@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Public_unlock icon</name>
+   <tag></tag>
+   <elementGuidId>6481b873-ca51-4e09-81ed-45c5fa94b267</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/form/div[3]/div/div/div/div/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.unlock.icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>0d947657-9bba-48c8-a350-cef21cd4d084</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>56ac2486-060e-4870-bd43-60aee8d78664</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>unlock icon</value>
+      <webElementGuid>25b6a9c6-148b-45e4-b959-1538ee0678ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/form[@class=&quot;ui form segment custom-form-container&quot;]/div[@class=&quot;two fields&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;ui field&quot;]/div[@class=&quot;fields&quot;]/div[@class=&quot;four wide field&quot;]/button[@class=&quot;ui small fluid positive toggle button&quot;]/i[@class=&quot;unlock icon&quot;]</value>
+      <webElementGuid>df4b8124-a975-4c68-80e7-bf17d5665005</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/form/div[3]/div/div/div/div/button/i</value>
+      <webElementGuid>2f1f35c8-ed42-4476-9346-691d0cbf46e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/button/i</value>
+      <webElementGuid>33da6035-166c-48f5-871e-bf41983624a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

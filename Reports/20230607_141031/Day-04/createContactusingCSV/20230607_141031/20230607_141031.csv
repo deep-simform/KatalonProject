@@ -1,0 +1,98 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createContactusingCSV,Chrome 109.0.0.0,,,2023-06-07 14:10:33,2023-06-07 14:12:45,2m - 12.163s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:10:34,2023-06-07 14:10:55,20.775s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:10:34,2023-06-07 14:10:34,0.125s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:10:34,2023-06-07 14:10:40,5.695s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:10:40,2023-06-07 14:10:44,3.949s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:10:44,2023-06-07 14:10:45,1.279s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:10:45,2023-06-07 14:10:47,1.560s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:10:47,2023-06-07 14:10:48,1.009s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:10:48,2023-06-07 14:10:48,0.589s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:10:48,2023-06-07 14:10:50,2.279s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:10:50,2023-06-07 14:10:55,4.262s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:10:55,2023-06-07 14:10:55,0.002s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:10:55,2023-06-07 14:11:10,15.361s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:10:55,2023-06-07 14:10:55,0.009s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:10:55,2023-06-07 14:10:58,3.221s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:10:58,2023-06-07 14:11:00,2.369s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:11:00,2023-06-07 14:11:01,1.086s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:11:01,2023-06-07 14:11:03,1.448s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:11:03,2023-06-07 14:11:04,1.062s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:11:04,2023-06-07 14:11:04,0.443s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:11:04,2023-06-07 14:11:06,1.935s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:06,2023-06-07 14:11:10,3.775s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:10,2023-06-07 14:11:10,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:11:10,2023-06-07 14:11:25,15.299s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:10,2023-06-07 14:11:10,0.007s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:10,2023-06-07 14:11:13,3.068s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:11:13,2023-06-07 14:11:16,2.586s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:11:16,2023-06-07 14:11:17,1.065s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:11:17,2023-06-07 14:11:18,1.450s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:11:18,2023-06-07 14:11:19,1.034s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:11:19,2023-06-07 14:11:20,0.546s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:11:20,2023-06-07 14:11:22,1.920s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:22,2023-06-07 14:11:25,3.604s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:25,2023-06-07 14:11:25,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:11:25,2023-06-07 14:11:42,16.334s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:25,2023-06-07 14:11:25,0.010s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:25,2023-06-07 14:11:29,3.274s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:11:29,2023-06-07 14:11:31,2.264s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:11:31,2023-06-07 14:11:32,1.067s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:11:32,2023-06-07 14:11:33,1.468s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:11:33,2023-06-07 14:11:34,0.950s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:11:34,2023-06-07 14:11:35,0.444s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:11:35,2023-06-07 14:11:37,2.347s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:37,2023-06-07 14:11:42,4.498s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:42,2023-06-07 14:11:42,0.000s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:11:42,2023-06-07 14:11:58,16.385s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:42,2023-06-07 14:11:42,0.010s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:42,2023-06-07 14:11:45,3.769s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:11:45,2023-06-07 14:11:48,2.374s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:11:48,2023-06-07 14:11:49,1.068s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:11:49,2023-06-07 14:11:50,1.363s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:11:50,2023-06-07 14:11:51,1.076s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:11:51,2023-06-07 14:11:52,0.551s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:11:52,2023-06-07 14:11:54,2.139s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:54,2023-06-07 14:11:58,4.026s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:11:58,2023-06-07 14:11:58,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:11:58,2023-06-07 14:12:14,15.787s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:58,2023-06-07 14:11:58,0.011s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:11:58,2023-06-07 14:12:02,3.585s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:12:02,2023-06-07 14:12:04,2.396s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:12:04,2023-06-07 14:12:05,1.062s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:12:05,2023-06-07 14:12:07,1.360s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:12:07,2023-06-07 14:12:08,1.029s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:12:08,2023-06-07 14:12:08,0.540s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:12:08,2023-06-07 14:12:10,2.121s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:12:10,2023-06-07 14:12:14,3.674s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:12:14,2023-06-07 14:12:14,0.000s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:12:14,2023-06-07 14:12:29,15.099s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:12:14,2023-06-07 14:12:14,0.012s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:12:14,2023-06-07 14:12:17,3.465s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:12:17,2023-06-07 14:12:20,2.400s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:12:20,2023-06-07 14:12:21,1.097s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:12:21,2023-06-07 14:12:22,1.380s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:12:22,2023-06-07 14:12:23,0.955s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:12:23,2023-06-07 14:12:24,0.335s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:12:24,2023-06-07 14:12:25,1.913s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:12:25,2023-06-07 14:12:29,3.532s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:12:29,2023-06-07 14:12:29,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-07 14:12:29,2023-06-07 14:12:45,15.845s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 14:12:29,2023-06-07 14:12:29,0.012s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-07 14:12:29,2023-06-07 14:12:33,3.568s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-07 14:12:33,2023-06-07 14:12:35,2.485s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Create""))",Chrome 109.0.0.0,,,2023-06-07 14:12:35,2023-06-07 14:12:36,1.066s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-07 14:12:36,2023-06-07 14:12:38,1.426s,PASSED
+"setText(findTestObject(""Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-07 14:12:38,2023-06-07 14:12:39,1.056s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Create Contact with CSV/button_Save""))",Chrome 109.0.0.0,,,2023-06-07 14:12:39,2023-06-07 14:12:39,0.443s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 14:12:39,2023-06-07 14:12:41,2.148s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-07 14:12:41,2023-06-07 14:12:45,3.626s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 14:12:45,2023-06-07 14:12:45,0.000s,PASSED

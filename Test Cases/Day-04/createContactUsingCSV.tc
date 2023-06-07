@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>createContactUsingCSV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c51c7d6-65ff-4687-bdc9-66fc7f7e7411</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>315419cf-b43b-426e-9d82-7973ebd7078c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/testdata</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b852e5ef-ada6-4c76-89e3-c3e0d2903be8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bccd17fa-934e-4030-893c-e8c15d7e77cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b852e5ef-ada6-4c76-89e3-c3e0d2903be8</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bccd17fa-934e-4030-893c-e8c15d7e77cc</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+</TestCaseEntity>

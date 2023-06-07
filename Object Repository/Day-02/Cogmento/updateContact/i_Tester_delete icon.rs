@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Tester_delete icon</name>
+   <tag></tag>
+   <elementGuidId>d337cbea-d7ac-4558-8e4a-8a66f0127317</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[2]/form/div[3]/div[2]/div/label[2]/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.delete.icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ea04a33d-beae-40a2-9a87-6c854c1b078a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>feba7ce1-3895-4762-b7bc-fb31c5790d2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>delete icon</value>
+      <webElementGuid>3a7d58a2-cf33-4cd7-9c3b-a83e4fe19689</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;ui fluid container&quot;]/div[@class=&quot;ui fluid container main-content&quot;]/form[@class=&quot;ui form segment custom-form-container&quot;]/div[@class=&quot;two fields&quot;]/div[@class=&quot;field&quot;]/div[@class=&quot;ui field&quot;]/label[2]/div[@class=&quot;ui active visible fluid multiple search selection dropdown&quot;]/a[@class=&quot;ui label&quot;]/i[@class=&quot;delete icon&quot;]</value>
+      <webElementGuid>72bf018a-87d1-491c-9b5f-b42ac4cedf96</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content']/div/div[2]/form/div[3]/div[2]/div/label[2]/div/a/i</value>
+      <webElementGuid>546234b2-0780-4f55-b72d-1b5dbf2100f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]/div/a/i</value>
+      <webElementGuid>58910a9b-e093-40cb-818a-ab27fcc18dce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
