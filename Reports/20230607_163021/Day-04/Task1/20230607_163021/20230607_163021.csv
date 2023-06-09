@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task1,Chrome 109.0.0.0,,,2023-06-07 16:30:26,2023-06-07 16:31:00,34.789s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-07 16:30:29,2023-06-07 16:30:39,9.834s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 16:30:29,2023-06-07 16:30:30,0.232s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-06-07 16:30:31,2023-06-07 16:30:32,1.272s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-07 16:30:32,2023-06-07 16:30:33,1.113s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 16:30:33,2023-06-07 16:30:39,5.986s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-06-07 16:30:39,2023-06-07 16:30:39,0.171s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 16:30:39,2023-06-07 16:30:39,0.019s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-07 16:30:39,2023-06-07 16:30:45,5.619s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 16:30:39,2023-06-07 16:30:39,0.055s,ERROR
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-06-07 16:30:39,2023-06-07 16:30:40,0.871s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-07 16:30:40,2023-06-07 16:30:41,0.839s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 16:30:41,2023-06-07 16:30:45,3.673s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-06-07 16:30:45,2023-06-07 16:30:45,0.135s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 16:30:45,2023-06-07 16:30:45,0.002s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-07 16:30:45,2023-06-07 16:30:53,7.655s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 16:30:45,2023-06-07 16:30:45,0.024s,ERROR
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-06-07 16:30:45,2023-06-07 16:30:46,0.734s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-07 16:30:46,2023-06-07 16:30:47,0.925s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 16:30:47,2023-06-07 16:30:52,5.752s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-06-07 16:30:52,2023-06-07 16:30:53,0.189s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 16:30:53,2023-06-07 16:30:53,0.008s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-07 16:30:53,2023-06-07 16:31:00,7.675s,PASSED
+Start listener action : login,Chrome 109.0.0.0,,,2023-06-07 16:30:53,2023-06-07 16:30:53,0.031s,ERROR
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-06-07 16:30:53,2023-06-07 16:30:54,0.775s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-07 16:30:54,2023-06-07 16:30:55,0.960s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-07 16:30:55,2023-06-07 16:31:00,5.695s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-06-07 16:31:00,2023-06-07 16:31:00,0.177s,PASSED
+Start listener action : logout,Chrome 109.0.0.0,,,2023-06-07 16:31:00,2023-06-07 16:31:00,0.010s,PASSED

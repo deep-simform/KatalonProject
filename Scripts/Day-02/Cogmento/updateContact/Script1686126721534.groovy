@@ -17,11 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
+//
+//WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://ui.cogmento.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-CustomKeywords.'com.LoginCogmento.Login'(GlobalVariable.username, GlobalVariable.password)
+String username_object = 'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+
+String password_object = 'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+
+String loginBtn_object = 'Object Repository/Day-02/Cogmento/createContact/div_Login'
+
+CustomKeywords.'com.LoginCogmento.Login'(username_object, password_object, loginBtn_object, GlobalVariable.username, GlobalVariable.password)
+
+WebUI.mouseOver(findTestObject('Day-04/Create Contact with CSV/i_Free account_settings icon'))
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/updateContact/a_Deep Patel'))
 
@@ -29,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/updateContact/butt
 
 WebUI.clearText(findTestObject('Object Repository/Day-02/Cogmento/updateContact/input_Middle Name(s)_middle_name'))
 
-WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/updateContact/input_Middle Name(s)_middle_name'), 'Rakeshbhai')
+WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/updateContact/input_Middle Name(s)_middle_name'), middleName)
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/updateContact/i_Public_unlock icon'))
 
@@ -51,5 +61,6 @@ WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/updateContact/div_
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/updateContact/div_Do not Email'))
 
-WebUI.closeBrowser()
+WebUI.verifyTextPresent(middleName, false)
 
+//WebUI.closeBrowser()

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createContactusingCSV" time="57.92" tests="3" failures="0" errors="0">
+   <testsuite name="createContactusingCSV" tests="3" failures="0" errors="0" time="57.92" skipped="0" timestamp="2023-06-07 15:01:28" hostname="deep - SF-CPU-460" id="Test Suites/Day-04/createContactusingCSV">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/deep/git/KatalonProject/Reports/20230607_150126/Day-04/createContactusingCSV/20230607_150126"/>
+         <property name="logFiles" value="/home/deep/git/KatalonProject/Reports/20230607_150126/Day-04/createContactusingCSV/20230607_150126/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="deep - SF-CPU-460"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="20ecf10e84547d6f563110986248d6cd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Day-04/createContactUsingCSV" time="22.233" classname="Test Cases/Day-04/createContactUsingCSV" status="PASSED">
+         <system-out><![CDATA[2023-06-07 15:01:29 - [TEST_CASE][PASSED] - Test Cases/Day-04/createContactUsingCSV: Test Cases/Day-04/createContactUsingCSV
+
+2023-06-07 15:01:29 - [TEST_STEP][PASSED] - Start listener action : login: Current window maximized
+
+2023-06-07 15:01:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-07 15:01:29 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-07 15:01:29 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-07 15:01:29 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-07 15:01:32 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-07 15:01:32 - [TEST_STEP][PASSED] - com.LoginCogmento.Login("deep.p@simformsolutions.com", "Deep@123"): com.LoginCogmento.Login is PASSED
+
+2023-06-07 15:01:33 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+
+2023-06-07 15:01:34 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+
+2023-06-07 15:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-02/Cogmento/createContact/div_Login' is clicked on
+
+2023-06-07 15:01:35 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-07 15:01:35 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-07 15:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon")): Object: 'Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon' is clicked on
+
+2023-06-07 15:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon' is clicked on
+
+2023-06-07 15:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/button_Create")): Object: 'Object Repository/Day-04/Create Contact with CSV/button_Create' is clicked on
+
+2023-06-07 15:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/button_Create' is clicked on
+
+2023-06-07 15:01:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name"), FirstName): Text 'Deep' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name'
+
+2023-06-07 15:01:41 - [MESSAGE][PASSED] - Text 'Deep' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name'
+
+2023-06-07 15:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name"), LastName): Text 'Patel' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name'
+
+2023-06-07 15:01:42 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name'
+
+2023-06-07 15:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/button_Save")): Object: 'Object Repository/Day-04/Create Contact with CSV/button_Save' is clicked on
+
+2023-06-07 15:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/button_Save' is clicked on
+
+2023-06-07 15:01:43 - [TEST_STEP][PASSED] - try: Text 'Deep Patel' is present on page 
+
+2023-06-07 15:01:43 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Deep Patel' is present on page 
+
+2023-06-07 15:01:44 - [MESSAGE][PASSED] - Text 'Deep Patel' is present on page 
+
+2023-06-07 15:01:44 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-07 15:01:44 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:01:44 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-07 15:01:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-07 15:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon")): Object: 'Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon' is clicked on
+
+2023-06-07 15:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon' is clicked on
+
+2023-06-07 15:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/span_Log Out")): Object: 'Object Repository/Day-04/Create Contact with CSV/span_Log Out' is clicked on
+
+2023-06-07 15:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/span_Log Out' is clicked on
+
+2023-06-07 15:01:47 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-07 15:01:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-07 15:01:47 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:01:51 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:01:51 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-07 15:01:51 - [TEST_STEP][PASSED] - Start listener action : logout: null
+
+2023-06-07 15:01:51 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day-04/createContactUsingCSV" time="18.345" classname="Test Cases/Day-04/createContactUsingCSV" status="PASSED">
+         <system-out><![CDATA[2023-06-07 15:01:51 - [TEST_CASE][PASSED] - Test Cases/Day-04/createContactUsingCSV: Test Cases/Day-04/createContactUsingCSV
+
+2023-06-07 15:01:51 - [TEST_STEP][PASSED] - Start listener action : login: Current window maximized
+
+2023-06-07 15:01:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-07 15:01:51 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-07 15:01:51 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-07 15:01:51 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-07 15:01:52 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-07 15:01:52 - [TEST_STEP][PASSED] - com.LoginCogmento.Login("deep.p@simformsolutions.com", "Deep@123"): com.LoginCogmento.Login is PASSED
+
+2023-06-07 15:01:53 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+
+2023-06-07 15:01:54 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+
+2023-06-07 15:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-02/Cogmento/createContact/div_Login' is clicked on
+
+2023-06-07 15:01:54 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-07 15:01:54 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-07 15:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon")): Object: 'Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon' is clicked on
+
+2023-06-07 15:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon' is clicked on
+
+2023-06-07 15:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/button_Create")): Object: 'Object Repository/Day-04/Create Contact with CSV/button_Create' is clicked on
+
+2023-06-07 15:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/button_Create' is clicked on
+
+2023-06-07 15:02:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name"), FirstName): Text 'Dharm' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name'
+
+2023-06-07 15:02:01 - [MESSAGE][PASSED] - Text 'Dharm' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name'
+
+2023-06-07 15:02:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name"), LastName): Text 'Patel' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name'
+
+2023-06-07 15:02:02 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name'
+
+2023-06-07 15:02:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/button_Save")): Object: 'Object Repository/Day-04/Create Contact with CSV/button_Save' is clicked on
+
+2023-06-07 15:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/button_Save' is clicked on
+
+2023-06-07 15:02:03 - [TEST_STEP][PASSED] - try: Text 'Dharm Patel' is present on page 
+
+2023-06-07 15:02:03 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Dharm Patel' is present on page 
+
+2023-06-07 15:02:05 - [MESSAGE][PASSED] - Text 'Dharm Patel' is present on page 
+
+2023-06-07 15:02:05 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-07 15:02:05 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:02:05 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-07 15:02:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-07 15:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon")): Object: 'Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon' is clicked on
+
+2023-06-07 15:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon' is clicked on
+
+2023-06-07 15:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/span_Log Out")): Object: 'Object Repository/Day-04/Create Contact with CSV/span_Log Out' is clicked on
+
+2023-06-07 15:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/span_Log Out' is clicked on
+
+2023-06-07 15:02:06 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-07 15:02:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-07 15:02:06 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:02:09 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:02:09 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-07 15:02:09 - [TEST_STEP][PASSED] - Start listener action : logout: null
+
+2023-06-07 15:02:09 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day-04/createContactUsingCSV" time="16.129" classname="Test Cases/Day-04/createContactUsingCSV" status="PASSED">
+         <system-out><![CDATA[2023-06-07 15:02:09 - [TEST_CASE][PASSED] - Test Cases/Day-04/createContactUsingCSV: Test Cases/Day-04/createContactUsingCSV
+
+2023-06-07 15:02:09 - [TEST_STEP][PASSED] - Start listener action : login: Current window maximized
+
+2023-06-07 15:02:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-07 15:02:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-07 15:02:09 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-07 15:02:09 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-07 15:02:11 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-07 15:02:11 - [TEST_STEP][PASSED] - com.LoginCogmento.Login("deep.p@simformsolutions.com", "Deep@123"): com.LoginCogmento.Login is PASSED
+
+2023-06-07 15:02:12 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+
+2023-06-07 15:02:13 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+
+2023-06-07 15:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-02/Cogmento/createContact/div_Login' is clicked on
+
+2023-06-07 15:02:13 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-07 15:02:13 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-07 15:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon")): Object: 'Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon' is clicked on
+
+2023-06-07 15:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/i_Calendar_users icon' is clicked on
+
+2023-06-07 15:02:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/button_Create")): Object: 'Object Repository/Day-04/Create Contact with CSV/button_Create' is clicked on
+
+2023-06-07 15:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/button_Create' is clicked on
+
+2023-06-07 15:02:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name"), FirstName): Text 'Kunj' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name'
+
+2023-06-07 15:02:18 - [MESSAGE][PASSED] - Text 'Kunj' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_First Name_first_name'
+
+2023-06-07 15:02:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name"), LastName): Text 'Kaneria' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name'
+
+2023-06-07 15:02:19 - [MESSAGE][PASSED] - Text 'Kaneria' is set on object 'Object Repository/Day-04/Create Contact with CSV/input_Last Name_last_name'
+
+2023-06-07 15:02:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/button_Save")): Object: 'Object Repository/Day-04/Create Contact with CSV/button_Save' is clicked on
+
+2023-06-07 15:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/button_Save' is clicked on
+
+2023-06-07 15:02:20 - [TEST_STEP][PASSED] - try: Text 'Kunj Kaneria' is present on page 
+
+2023-06-07 15:02:20 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Kunj Kaneria' is present on page 
+
+2023-06-07 15:02:22 - [MESSAGE][PASSED] - Text 'Kunj Kaneria' is present on page 
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-07 15:02:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon")): Object: 'Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon' is clicked on
+
+2023-06-07 15:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon' is clicked on
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Day-04/Create Contact with CSV/span_Log Out")): Object: 'Object Repository/Day-04/Create Contact with CSV/span_Log Out' is clicked on
+
+2023-06-07 15:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Day-04/Create Contact with CSV/span_Log Out' is clicked on
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-07 15:02:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-07 15:02:22 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:02:25 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-07 15:02:25 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-07 15:02:25 - [TEST_STEP][PASSED] - Start listener action : logout: null
+
+2023-06-07 15:02:25 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-07 15:01:28 - [TEST_SUITE][PASSED] - createContactusingCSV: Test Cases/Day-04/createContactUsingCSV]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -5,15 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4c51c7d6-65ff-4687-bdc9-66fc7f7e7411</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>315419cf-b43b-426e-9d82-7973ebd7078c</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/testdata</testDataId>
-   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>

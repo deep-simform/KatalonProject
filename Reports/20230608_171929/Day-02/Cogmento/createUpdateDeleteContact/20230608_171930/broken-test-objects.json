@@ -1,0 +1,64 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/createContact/input_Company_search",
+      "brokenLocator": "//input[@value\u003d\u0027Simform\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027main-content\u0027]/div/div[2]/form/div[2]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_171929/Day-02/Cogmento/createUpdateDeleteContact/20230608_171930/Object Repository/Day-02/Cogmento/createContact/input_Company_search_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/createContact/input_Login_email",
+      "brokenLocator": "//input[@name\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_171929/Day-02/Cogmento/createUpdateDeleteContact/20230608_171930/Object Repository/Day-02/Cogmento/createContact/input_Login_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/createContact/input_Login_password",
+      "brokenLocator": "//input[@name\u003d\u0027password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_171929/Day-02/Cogmento/createUpdateDeleteContact/20230608_171930/Object Repository/Day-02/Cogmento/createContact/input_Login_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/createContact/div_Login",
+      "brokenLocator": "//div[@id\u003d\u0027ui\u0027]/div/div/form/div/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_171929/Day-02/Cogmento/createUpdateDeleteContact/20230608_171930/Object Repository/Day-02/Cogmento/createContact/div_Login_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/updateContact/a_Deep Patel",
+      "brokenLocator": "//div[@id\u003d\u0027main-content\u0027]/div/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/span/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Deep Patel\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_171929/Day-02/Cogmento/createUpdateDeleteContact/20230608_171930/Object Repository/Day-02/Cogmento/updateContact/a_Deep Patel_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/updateContact/input_Tags_search",
+      "brokenLocator": "//input[@value\u003d\u0027tester\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027main-content\u0027]/div/div[2]/form/div[3]/div[2]/div/label[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_171929/Day-02/Cogmento/createUpdateDeleteContact/20230608_171930/Object Repository/Day-02/Cogmento/updateContact/input_Tags_search_idRelative.png"
+    }
+  ]
+}

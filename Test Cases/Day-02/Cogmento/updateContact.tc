@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7279cafb-a12c-4f9e-907a-0e35f910c54c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4dabc07b-5d37-463d-a319-6edd839c575e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Rakeshbhai'</defaultValue>
+      <description></description>
+      <id>4dabc07b-5d37-463d-a319-6edd839c575e</id>
+      <masked>false</masked>
+      <name>middleName</name>
+   </variable>
 </TestCaseEntity>

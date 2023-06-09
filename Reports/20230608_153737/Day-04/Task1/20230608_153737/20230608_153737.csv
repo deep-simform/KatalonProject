@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task1,Chrome 109.0.0.0,,,2023-06-08 15:37:39,2023-06-08 15:37:57,18.272s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 15:37:40,2023-06-08 15:37:47,7.460s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 15:37:40,2023-06-08 15:37:40,0.128s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 15:37:40,2023-06-08 15:37:41,0.872s,PASSED
+"setText(findTestObject(""Day-04/Tesk1/input_First Name_FirstName""), firstName)",Chrome 109.0.0.0,,,2023-06-08 15:37:41,2023-06-08 15:37:42,1.236s,PASSED
+"male_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender""",Chrome 109.0.0.0,,,2023-06-08 15:37:42,2023-06-08 15:37:42,0.001s,PASSED
+"female_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender (1)""",Chrome 109.0.0.0,,,2023-06-08 15:37:42,2023-06-08 15:37:42,0.001s,PASSED
+"com.FormFillDay4.fillGender(male_object, female_object, gender)",Chrome 109.0.0.0,,,2023-06-08 15:37:42,2023-06-08 15:37:43,0.707s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Day-04/Tesk1/select_Select OneFootBallTenisCricket""), ""Tenis"", true)",Chrome 109.0.0.0,,,2023-06-08 15:37:43,2023-06-08 15:37:45,1.393s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Tesk1/input_Terms  Condition_agree""))",Chrome 109.0.0.0,,,2023-06-08 15:37:45,2023-06-08 15:37:45,0.534s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-08 15:37:45,2023-06-08 15:37:47,2.360s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 15:37:47,2023-06-08 15:37:47,0.003s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 15:37:47,2023-06-08 15:37:52,4.750s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 15:37:47,2023-06-08 15:37:48,0.010s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 15:37:48,2023-06-08 15:37:48,0.225s,PASSED
+"setText(findTestObject(""Day-04/Tesk1/input_First Name_FirstName""), firstName)",Chrome 109.0.0.0,,,2023-06-08 15:37:48,2023-06-08 15:37:49,0.890s,PASSED
+"male_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender""",Chrome 109.0.0.0,,,2023-06-08 15:37:49,2023-06-08 15:37:49,0.001s,PASSED
+"female_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender (1)""",Chrome 109.0.0.0,,,2023-06-08 15:37:49,2023-06-08 15:37:49,0.000s,PASSED
+"com.FormFillDay4.fillGender(male_object, female_object, gender)",Chrome 109.0.0.0,,,2023-06-08 15:37:49,2023-06-08 15:37:49,0.528s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Day-04/Tesk1/select_Select OneFootBallTenisCricket""), ""Tenis"", true)",Chrome 109.0.0.0,,,2023-06-08 15:37:49,2023-06-08 15:37:50,1.229s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Tesk1/input_Terms  Condition_agree""))",Chrome 109.0.0.0,,,2023-06-08 15:37:50,2023-06-08 15:37:51,0.542s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-08 15:37:51,2023-06-08 15:37:52,1.308s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 15:37:52,2023-06-08 15:37:52,0.002s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 15:37:52,2023-06-08 15:37:57,4.823s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 15:37:52,2023-06-08 15:37:52,0.011s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 15:37:52,2023-06-08 15:37:52,0.204s,PASSED
+"setText(findTestObject(""Day-04/Tesk1/input_First Name_FirstName""), firstName)",Chrome 109.0.0.0,,,2023-06-08 15:37:52,2023-06-08 15:37:53,0.996s,PASSED
+"male_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender""",Chrome 109.0.0.0,,,2023-06-08 15:37:53,2023-06-08 15:37:53,0.001s,PASSED
+"female_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender (1)""",Chrome 109.0.0.0,,,2023-06-08 15:37:53,2023-06-08 15:37:53,0.001s,PASSED
+"com.FormFillDay4.fillGender(male_object, female_object, gender)",Chrome 109.0.0.0,,,2023-06-08 15:37:53,2023-06-08 15:37:54,0.670s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Day-04/Tesk1/select_Select OneFootBallTenisCricket""), ""Tenis"", true)",Chrome 109.0.0.0,,,2023-06-08 15:37:54,2023-06-08 15:37:55,1.246s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Tesk1/input_Terms  Condition_agree""))",Chrome 109.0.0.0,,,2023-06-08 15:37:55,2023-06-08 15:37:56,0.610s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-08 15:37:56,2023-06-08 15:37:57,1.074s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 15:37:57,2023-06-08 15:37:57,0.001s,PASSED

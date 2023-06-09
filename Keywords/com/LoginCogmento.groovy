@@ -22,12 +22,10 @@ import internal.GlobalVariable
 
 public class LoginCogmento {
 	@Keyword
-	public Login(String username,String password) {
-		WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/input_Login_email'), username)
+	public Login(String usernameObject,String passwordObject,String loginbtnObject,String username,String password) {
+		WebUI.setText(findTestObject(usernameObject), username)
+		WebUI.setText(findTestObject(passwordObject), password)
+		WebUI.click(findTestObject(loginbtnObject))
 
-		//		WebUI.setEncryptedText(findTestObject('Object Repository/Day-02/Cogmento/createContact/input_Login_password'), '')
-		WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/input_Login_password'), password)
-
-		WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/div_Login'))
 	}
 }

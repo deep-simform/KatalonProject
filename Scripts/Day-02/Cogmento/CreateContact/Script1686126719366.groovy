@@ -3,10 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import javax.xml.bind.annotation.XmlElementDecl.GLOBAL
-
-import com.kms.katalon.core.annotation.Keyword
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL as GLOBAL
+import com.kms.katalon.core.annotation.Keyword as Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -18,18 +16,22 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import groovy.swing.factory.ComboBoxFactory
-import internal.GlobalVariable
-
-import org.apache.http.auth.UsernamePasswordCredentials
+import groovy.swing.factory.ComboBoxFactory as ComboBoxFactory
+import internal.GlobalVariable as GlobalVariable
+import org.apache.http.auth.UsernamePasswordCredentials as UsernamePasswordCredentials
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-CustomKeywords.'com.LoginCogmento.Login'(GlobalVariable.username,GlobalVariable.password)
+String username_object = 'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+
+String password_object = 'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+
+String loginBtn_object = 'Object Repository/Day-02/Cogmento/createContact/div_Login'
+
+CustomKeywords.'com.LoginCogmento.Login'(username_object, password_object, loginBtn_object, GlobalVariable.username, GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/i_Calendar_users icon'))
 
@@ -38,7 +40,6 @@ WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/butt
 WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/input_First Name_first_name'), firstName)
 
 WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/input_Last Name_last_name'), lastName)
-
 
 WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/input_Company_search'), company)
 
@@ -52,13 +53,7 @@ WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/div_
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/div_New'))
 
-//
-//WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/textarea_d'), 'd')
-//
-//WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/textarea_de'), 'de')
-//
-//WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/textarea_dee'), 'dee')
-WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/textarea_deep'), firstName+" "+lastName)
+WebUI.setText(findTestObject('Object Repository/Day-02/Cogmento/createContact/textarea_deep'), (firstName + ' ') + lastName)
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/label_Do not Text'))
 
@@ -78,9 +73,21 @@ WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/butt
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/i_Home_home icon'))
 
+WebUI.mouseOver(findTestObject('Day-04/Create Contact with CSV/i_Free account_settings icon'))
+
+//
+//
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/a_Deep Patel'))
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/createContact/div_Record meta data'))
 
-WebUI.closeBrowser()
+WebUI.verifyTextPresent((firstName + ' ') + lastName, false)
+
+WebUI.verifyTextPresent(company, false)
+
+WebUI.verifyTextPresent(mailId, false)
+
+WebUI.verifyTextPresent((firstName + ' ') + lastName, false)
+
+WebUI.verifyTextPresent((firstName + ' ') + lastName, false)
 

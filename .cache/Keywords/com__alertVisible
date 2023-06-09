@@ -1,28 +1,9 @@
 {
-  "keywordFileContentHash": "A223C8EABBDCA696AD7C9B79DE5D2F5A",
+  "keywordFileContentHash": "71D328F6D25889A938EC8B4D52AEC3A0",
   "keywordClasses": [
     {
       "name": "com.alertVisible",
       "keywordMethods": [
-        {
-          "name": "visible",
-          "parameters": [
-            {
-              "name": "number",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "int",
-                "unresolvedClassName": "int",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": ""
-        },
         {
           "name": "acceptalert",
           "parameters": [],

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Task1,Chrome 109.0.0.0,,,2023-06-08 10:33:33,2023-06-08 10:34:08,34.509s,FAILED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 10:33:58,2023-06-08 10:34:05,6.531s,FAILED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 10:33:58,2023-06-08 10:33:58,0.009s,PASSED
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 10:33:58,2023-06-08 10:33:59,0.205s,PASSED
+"setText(findTestObject(""Day-04/Tesk1/input_First Name_FirstName""), firstName)",Chrome 109.0.0.0,,,2023-06-08 10:33:59,2023-06-08 10:34:00,1.028s,PASSED
+"male_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender""",Chrome 109.0.0.0,,,2023-06-08 10:34:00,2023-06-08 10:34:00,0.001s,PASSED
+"female_object = ""Object Repository/Day-04/Tesk1/input_MaleFemale_gender (1)""",Chrome 109.0.0.0,,,2023-06-08 10:34:00,2023-06-08 10:34:00,0.000s,PASSED
+"com.FormFillDay4.fillGender(male_object, female_object, gender)",Chrome 109.0.0.0,,,2023-06-08 10:34:00,2023-06-08 10:34:00,0.578s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Day-04/Tesk1/select_Select OneFootBallTenisCricket""), ""Tenis"", true)",Chrome 109.0.0.0,,,2023-06-08 10:34:00,2023-06-08 10:34:02,1.259s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Tesk1/input_Terms  Condition_agree""))",Chrome 109.0.0.0,,,2023-06-08 10:34:02,2023-06-08 10:34:02,0.572s,PASSED
+"click(findTestObject(""Object Repository/Day-04/Tesk1/input_Terms  Condition_btnSignUp""))",Chrome 109.0.0.0,,,2023-06-08 10:34:02,2023-06-08 10:34:03,0.977s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-08 10:34:03,2023-06-08 10:34:05,1.593s,FAILED
+catch (Exception e),Chrome 109.0.0.0,,,2023-06-08 10:34:05,2023-06-08 10:34:05,0.291s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 10:34:05,2023-06-08 10:34:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 10:34:07,2023-06-08 10:34:08,0.050s,FAILED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 10:34:07,2023-06-08 10:34:08,0.019s,ERROR
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.017s,FAILED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.000s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.056s,FAILED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.024s,ERROR
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.021s,FAILED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.002s,PASSED
+,,,,,,,
+Test Cases/Day-04/Assignment Task-1,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.043s,FAILED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.016s,ERROR
+"navigateToUrl(""https://www.plus2net.com/javascript_tutorial/form-submit-demo.php"")",Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.018s,FAILED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 10:34:08,2023-06-08 10:34:08,0.000s,PASSED

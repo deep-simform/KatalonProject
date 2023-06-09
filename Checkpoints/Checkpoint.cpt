@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>Checkpoint</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/testdata</source-url>
+   </source-info>
+   <taken-date>2023-06-07T14:54:51.15</taken-date>
+   <column-names>
+      <column-name>FirstName</column-name>
+      <column-name>LastName</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Deep",
+      "checked": true
+    },
+    {
+      "value": "Patel",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Dharm",
+      "checked": true
+    },
+    {
+      "value": "Patel",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Kunj",
+      "checked": false
+    },
+    {
+      "value": "Kaneria",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Paresh",
+      "checked": true
+    },
+    {
+      "value": "Mali",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "Saumya",
+      "checked": true
+    },
+    {
+      "value": "Srivastava",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Khusbu",
+      "checked": false
+    },
+    {
+      "value": "Jain",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Rushin",
+      "checked": false
+    },
+    {
+      "value": "Shah",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "value": "Deepansh",
+      "checked": true
+    },
+    {
+      "value": "Sahni",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

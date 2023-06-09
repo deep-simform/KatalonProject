@@ -44,8 +44,15 @@ catch (Exception e) {
 @com.kms.katalon.core.annotation.SetUp
 void login() {
     WebUI.navigateToUrl(GlobalVariable.URL)
-
-    CustomKeywords.'com.LoginCogmento.Login'('deep.p@simformsolutions.com', 'Deep@123')
+	String username_object = 'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+	
+	String password_object = 'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+	
+	String loginBtn_object = 'Object Repository/Day-02/Cogmento/createContact/div_Login'
+	
+	CustomKeywords.'com.LoginCogmento.Login'(username_object, password_object, loginBtn_object, GlobalVariable.username, GlobalVariable.password)
+	
+//    CustomKeywords.'com.LoginCogmento.Login'('deep.p@simformsolutions.com', 'Deep@123')
 }
 
 @com.kms.katalon.core.annotation.TearDown

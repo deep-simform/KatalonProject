@@ -1,14 +1,14 @@
 {
-  "keywordFileContentHash": "ABDABB878C02F38020A4D59552762B94",
+  "keywordFileContentHash": "DD6C58A05A0CBBA504E2EF98ADC72E81",
   "keywordClasses": [
     {
       "name": "com.FormFillDay4",
       "keywordMethods": [
         {
-          "name": "fillFirstName",
+          "name": "fillGender",
           "parameters": [
             {
-              "name": "name",
+              "name": "MaleObject",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -19,13 +19,20 @@
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
-            }
-          ],
-          "javadoc": ""
-        },
-        {
-          "name": "fillGender",
-          "parameters": [
+            },
+            {
+              "name": "FemaleObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
             {
               "name": "gender",
               "initialExpression": "",
@@ -40,21 +47,6 @@
               }
             }
           ],
-          "javadoc": ""
-        },
-        {
-          "name": "fillGamePlayed",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "CheckTCBtn",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "ClickSignUP",
-          "parameters": [],
           "javadoc": ""
         }
       ]

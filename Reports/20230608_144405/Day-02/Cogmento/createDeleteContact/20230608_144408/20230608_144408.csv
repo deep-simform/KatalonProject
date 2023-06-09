@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createDeleteContact,,,,2023-06-08 14:44:20,2023-06-08 14:44:21,1.386s,FAILED
+,,,,,,,
+Test Cases/Day-02/Cogmento/CreateContact,,,,2023-06-08 14:44:21,2023-06-08 14:44:21,0.099s,FAILED
+navigateToUrl(URL),,,,2023-06-08 14:44:21,2023-06-08 14:44:21,0.018s,FAILED
+,,,,,,,
+Test Cases/Day-02/Cogmento/deleteContact,,,,2023-06-08 14:44:21,2023-06-08 14:44:21,0.030s,FAILED
+"navigateToUrl(""https://ui.cogmento.com/"")",,,,2023-06-08 14:44:21,2023-06-08 14:44:21,0.015s,FAILED

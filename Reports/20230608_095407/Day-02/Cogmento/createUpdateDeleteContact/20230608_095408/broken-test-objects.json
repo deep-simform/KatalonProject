@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-02/Cogmento/createContact/input_Company_search",
+      "brokenLocator": "//input[@value\u003d\u0027Simform\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027main-content\u0027]/div/div[2]/form/div[2]/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_095407/Day-02/Cogmento/createUpdateDeleteContact/20230608_095408/Object Repository/Day-02/Cogmento/createContact/input_Company_search_idRelative.png"
+    }
+  ]
+}

@@ -23,6 +23,8 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://demoqa.com/automation-practice-form')
 
+WebUI.verifyTextPresent("Practice Form", false)
+
 WebUI.setText(findTestObject('Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_Name_firstName'), 'Deep')
 
 WebUI.setText(findTestObject('Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/input_Name_lastName'), 'Patel')
@@ -73,7 +75,6 @@ WebUI.click(findTestObject('Object Repository/Day-01/Practice Form Demo QA/Page_
 
 WebUI.click(findTestObject('Day-01/Practice Form Demo QA/Page_DEMOQA/div_Delhi (1)'))
 
-//WebUI.waitForElementNotClickable(findTestObject('Day-01/Practice Form Demo QA/Page_DEMOQA/button_Submit'), 0)
 WebUI.click(findTestObject('Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/button_Submit'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Day-01/Practice Form Demo QA/Page_DEMOQA/td_Deep Patel'), 'Deep Patel')
@@ -100,4 +101,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/Day-01/Practice Form D
 WebUI.click(findTestObject('Day-01/Practice Form Demo QA/Page_DEMOQA/button_Close'))
 
 WebUI.closeBrowser()
-

@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Day-04/Tesk1/input_Terms  Condition_btnSignUp",
+      "brokenLocator": "//input[@id\u003d\u0027btnSignUp\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230608_103332/Day-04"
+    }
+  ]
+}

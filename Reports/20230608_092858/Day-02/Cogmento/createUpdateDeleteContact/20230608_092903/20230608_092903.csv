@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createUpdateDeleteContact,Firefox 113.0,,,2023-06-08 09:29:14,2023-06-08 09:31:05,1m - 51.110s,ERROR
+,,,,,,,
+Test Cases/Day-02/Cogmento/CreateContact,Firefox 113.0,,,2023-06-08 09:29:23,2023-06-08 09:30:01,38.151s,PASSED
+Start listener action : login,Firefox 113.0,,,2023-06-08 09:29:23,2023-06-08 09:29:23,0.355s,PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-06-08 09:29:24,2023-06-08 09:29:28,3.793s,PASSED
+navigateToUrl(URL),Firefox 113.0,,,2023-06-08 09:29:28,2023-06-08 09:29:32,4.365s,PASSED
+"username_object = ""Object Repository/Day-02/Cogmento/createContact/input_Login_email""",Firefox 113.0,,,2023-06-08 09:29:32,2023-06-08 09:29:32,0.000s,PASSED
+"password_object = ""Object Repository/Day-02/Cogmento/createContact/input_Login_password""",Firefox 113.0,,,2023-06-08 09:29:32,2023-06-08 09:29:32,0.000s,PASSED
+"loginBtn_object = ""Object Repository/Day-02/Cogmento/createContact/div_Login""",Firefox 113.0,,,2023-06-08 09:29:32,2023-06-08 09:29:32,0.001s,PASSED
+"com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password)",Firefox 113.0,,,2023-06-08 09:29:32,2023-06-08 09:29:35,2.238s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/i_Calendar_users icon""))",Firefox 113.0,,,2023-06-08 09:29:35,2023-06-08 09:29:38,3.709s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/button_Create""))",Firefox 113.0,,,2023-06-08 09:29:38,2023-06-08 09:29:40,1.204s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_First Name_first_name""), firstName)",Firefox 113.0,,,2023-06-08 09:29:40,2023-06-08 09:29:41,1.198s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_Last Name_last_name""), lastName)",Firefox 113.0,,,2023-06-08 09:29:41,2023-06-08 09:29:42,0.912s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_Company_search""), company)",Firefox 113.0,,,2023-06-08 09:29:42,2023-06-08 09:29:44,2.739s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_Email_value""), mailId)",Firefox 113.0,,,2023-06-08 09:29:44,2023-06-08 09:29:46,1.726s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/div_SelectLeadCustomerContactAffiliate""))",Firefox 113.0,,,2023-06-08 09:29:46,2023-06-08 09:29:47,0.676s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/div_Customer""))",Firefox 113.0,,,2023-06-08 09:29:47,2023-06-08 09:29:47,0.587s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/div_SelectNewActiveInactiveOn HoldTerminatedHot""))",Firefox 113.0,,,2023-06-08 09:29:47,2023-06-08 09:29:48,0.478s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/div_New""))",Firefox 113.0,,,2023-06-08 09:29:48,2023-06-08 09:29:48,0.513s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/textarea_deep""), firstName + "" "" + lastName)",Firefox 113.0,,,2023-06-08 09:29:48,2023-06-08 09:29:49,0.816s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/label_Do not Text""))",Firefox 113.0,,,2023-06-08 09:29:49,2023-06-08 09:29:50,0.634s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_Birthday_day""), ""22"")",Firefox 113.0,,,2023-06-08 09:29:50,2023-06-08 09:29:51,0.658s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_December_year""), ""2002"")",Firefox 113.0,,,2023-06-08 09:29:51,2023-06-08 09:29:51,0.696s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/div_Month JanuaryFebruaryMarchAprilMayJuneJ_b508fe""))",Firefox 113.0,,,2023-06-08 09:29:51,2023-06-08 09:29:52,0.527s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/span_December""))",Firefox 113.0,,,2023-06-08 09:29:52,2023-06-08 09:29:52,0.583s,PASSED
+"setText(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_Image_image""), ""/home/deep/Pictures/Wallpapers/Simform_Wallpaper4.png"")",Firefox 113.0,,,2023-06-08 09:29:52,2023-06-08 09:29:53,0.729s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/input_Identifier_identifier""))",Firefox 113.0,,,2023-06-08 09:29:53,2023-06-08 09:29:54,0.601s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/button_Save""))",Firefox 113.0,,,2023-06-08 09:29:54,2023-06-08 09:29:54,0.729s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/i_Home_home icon""))",Firefox 113.0,,,2023-06-08 09:29:54,2023-06-08 09:29:56,1.156s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/a_Deep Patel""))",Firefox 113.0,,,2023-06-08 09:29:56,2023-06-08 09:29:58,2.257s,PASSED
+"click(findTestObject(""Object Repository/Day-02/Cogmento/createContact/div_Record meta data""))",Firefox 113.0,,,2023-06-08 09:29:58,2023-06-08 09:30:00,2.247s,PASSED
+closeBrowser(),Firefox 113.0,,,2023-06-08 09:30:00,2023-06-08 09:30:01,0.628s,PASSED
+Start listener action : logout,Firefox 113.0,,,2023-06-08 09:30:01,2023-06-08 09:30:01,0.003s,PASSED
+,,,,,,,
+Test Cases/Day-02/Cogmento/updateContact,Firefox 113.0,,,2023-06-08 09:30:29,2023-06-08 09:30:37,8.716s,ERROR
+Start listener action : login,Firefox 113.0,,,2023-06-08 09:30:29,2023-06-08 09:30:29,0.304s,PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-06-08 09:30:29,2023-06-08 09:30:33,4.146s,PASSED
+"navigateToUrl(""https://ui.cogmento.com/"")",Firefox 113.0,,,2023-06-08 09:30:33,2023-06-08 09:30:37,4.251s,PASSED
+"com.LoginCogmento.Login(username, password)",Firefox 113.0,,,2023-06-08 09:30:37,2023-06-08 09:30:37,0.003s,ERROR
+Start listener action : logout,Firefox 113.0,,,2023-06-08 09:30:37,2023-06-08 09:30:37,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-02/Cogmento/deleteContact,Firefox 113.0,,,2023-06-08 09:30:58,2023-06-08 09:31:05,6.776s,ERROR
+Start listener action : login,Firefox 113.0,,,2023-06-08 09:30:58,2023-06-08 09:30:58,0.286s,PASSED
+"openBrowser("""")",Firefox 113.0,,,2023-06-08 09:30:58,2023-06-08 09:31:01,2.656s,PASSED
+"navigateToUrl(""https://ui.cogmento.com/"")",Firefox 113.0,,,2023-06-08 09:31:01,2023-06-08 09:31:05,3.824s,PASSED
+"com.LoginCogmento.Login(username, password)",Firefox 113.0,,,2023-06-08 09:31:05,2023-06-08 09:31:05,0.004s,ERROR
+Start listener action : logout,Firefox 113.0,,,2023-06-08 09:31:05,2023-06-08 09:31:05,0.001s,PASSED

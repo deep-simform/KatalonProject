@@ -5,8 +5,8 @@
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>a8765793-c9c4-43e2-aa34-488fd883feb3</dataFileGUID>
-   <dataSourceUrl>/home/deep/Katalon Studio/DeepPatelKatlon/testdata.csv</dataSourceUrl>
+   <dataFileGUID>30bf24fa-1b8a-42d2-a1e9-6b64c0618825</dataFileGUID>
+   <dataSourceUrl>/home/deep/git/KatalonProject/testdata.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

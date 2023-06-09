@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createContactusingCSV,Chrome 109.0.0.0,,,2023-06-08 15:40:38,2023-06-08 15:40:48,10.606s,ERROR
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.169s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.018s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.015s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.127s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.000s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:48,0.196s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.021s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:47,0.018s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-08 15:40:47,2023-06-08 15:40:48,0.149s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 15:40:48,2023-06-08 15:40:48,0.001s,PASSED
+,,,,,,,
+Test Cases/Day-04/createContactUsingCSV,Chrome 109.0.0.0,,,2023-06-08 15:40:48,2023-06-08 15:40:48,0.132s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-08 15:40:48,2023-06-08 15:40:48,0.017s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-08 15:40:48,2023-06-08 15:40:48,0.016s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-08 15:40:48,2023-06-08 15:40:48,0.091s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-08 15:40:48,2023-06-08 15:40:48,0.001s,PASSED

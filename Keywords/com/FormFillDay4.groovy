@@ -22,36 +22,12 @@ import internal.GlobalVariable
 
 public class FormFillDay4 {
 	@Keyword
-	void fillFirstName(String name)
-	{
-		WebUI.setText(findTestObject('Object Repository/Day-04/Tesk1/input_First Name_FirstName'),name)
-	}
-	@Keyword
-	void fillGender(String gender)
-	{
-		if (gender=='Male')
-			{				
-			WebUI.click(findTestObject('Object Repository/Day-04/Tesk1/input_MaleFemale_gender'))
-			}
-		else
-		{
-			WebUI.click(findTestObject('Object Repository/Day-04/Tesk1/input_MaleFemale_gender (1)'))
-		}	
-	}
-	@Keyword
-	void fillGamePlayed()
-	{
-			WebUI.selectOptionByValue(findTestObject('Object Repository/Day-04/Tesk1/select_Select OneFootBallTenisCricket'),
-			'Tenis', true)	
-	}
-	@Keyword
-	void CheckTCBtn()
-	{	
-		WebUI.click(findTestObject('Object Repository/Day-04/Tesk1/input_Terms  Condition_agree'))
-	}
-	@Keyword
-	void ClickSignUP()
-	{	
-		WebUI.click(findTestObject('Object Repository/Day-04/Tesk1/input_Terms  Condition_btnSignUp'))	
+	void fillGender(String MaleObject,String FemaleObject,String gender) {
+		if (gender=='Male') {
+			WebUI.click(findTestObject(MaleObject))
+		}
+		else {
+			WebUI.click(findTestObject(FemaleObject))
+		}
 	}
 }

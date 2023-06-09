@@ -23,18 +23,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class alertVisible {
-	@Keyword
-	visible(int number) {
-		int a=0
-		while(a<number) {
-			a++
-			WebUI.delay(1)
-			println(WebUI.verifyAlertPresent(0))
-			if(WebUI.verifyAlertPresent(0)) {
-				break;
-			}
-		}
-	}
+	//	@Keyword
+	//	visible(int number) {
+	//		int a=0
+	//		while(a<number) {
+	//			a++
+	//			WebUI.delay(0.001)
+	//			println(WebUI.verifyAlertPresent(0))
+	//			if(WebUI.verifyAlertPresent(0)==true) {
+	//				println("Visible")
+	//				//				break
+	//			}
+	//			else {
+	//				println("Not Visible")
+	//	//			break
+	//			}
+	//		}
+	//	}
 
 	@Keyword
 	acceptalert() {

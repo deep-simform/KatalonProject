@@ -17,10 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://ui.cogmento.com/')
-CustomKeywords.'com.LoginCogmento.Login'(GlobalVariable.username, GlobalVariable.password)
+WebUI.navigateToUrl(GlobalVariable.URL)
+String username_object =  'Object Repository/Day-02/Cogmento/createContact/input_Login_email'
+String password_object =  'Object Repository/Day-02/Cogmento/createContact/input_Login_password'
+String loginBtn_object =  'Object Repository/Day-02/Cogmento/createContact/div_Login'
+
+CustomKeywords.'com.LoginCogmento.Login'(username_object,password_object,loginBtn_object,GlobalVariable.username,GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/deleteContact/i_Calendar_users icon'))
 
@@ -28,7 +32,6 @@ WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/deleteContact/i_de
 
 WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/deleteContact/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/deleteContact/td'))
+//WebUI.click(findTestObject('Object Repository/Day-02/Cogmento/deleteContact/td'))
 
-WebUI.closeBrowser()
-
+//WebUI.closeBrowser()

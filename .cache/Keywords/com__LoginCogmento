@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "6EA57F510E69C87A149FED7F1E6183AA",
+  "keywordFileContentHash": "8878E04B154A3F40E045648D416B3F47",
   "keywordClasses": [
     {
       "name": "com.LoginCogmento",
@@ -7,6 +7,45 @@
         {
           "name": "Login",
           "parameters": [
+            {
+              "name": "usernameObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "passwordObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "loginbtnObject",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
             {
               "name": "username",
               "initialExpression": "",

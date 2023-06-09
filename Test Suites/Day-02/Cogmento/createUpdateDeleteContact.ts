@@ -60,6 +60,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Day-02/Cogmento/updateContact</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4dabc07b-5d37-463d-a319-6edd839c575e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f1a642d0-a476-4f24-a508-cd8963d534ed</guid>

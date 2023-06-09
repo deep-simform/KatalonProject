@@ -27,26 +27,22 @@ class NewTestListener {
 	@BeforeTestSuite
 	void openbrowser() {
 		WebUI.openBrowser('')
-//		WebUI.navigateToUrl(GlobalVariable.URL)
-//		CustomKeywords.'com.LoginCogmento.Login'('deep.p@simformsolutions.com', 'Deep@123')
 	}
 	
 	@BeforeTestCase
-	void login()
+	void maximize()
 	{
 	WebUI.maximizeWindow()	
 	}
 	
 	@AfterTestCase
-	void logout() 
+	void assertmessage() 
 	{
 		println("Testcase Run successfully.")
 	}
 	
 	@AfterTestSuite
 	void closebrowser() {
-//		WebUI.click(findTestObject('Object Repository/Day-04/Create Contact with CSV/i_Free account_settings icon'))
-//		WebUI.click(findTestObject('Object Repository/Day-04/Create Contact with CSV/span_Log Out'))
 		WebUI.closeBrowser()
 	}
 }
